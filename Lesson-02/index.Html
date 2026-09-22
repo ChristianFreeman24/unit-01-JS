@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let score = 10;              // 1 10
+        score += 5;                  // 2 15
+        score *= 2;                  // 3
+        let bonus = score % 7;       // 4
+        score -= bonus;              // 5
+        let old = score++;           // 6
+        let next = ++score;          // 7
+        score /= 3;                  // 8
+        bonus--;                     // 9
+        score = score + bonus * 4;   // 10
+        
+        // 1. Why is old 28 but score 29 after line 6?
+        // A:
+        // 2. Why doesn’t line 10 give 44?
+        // A:
+        // 3. What would score be if line 3 came before line 2?
+        // A:
+        </script>
+</body>
+</html>
